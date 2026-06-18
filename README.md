@@ -1,8 +1,14 @@
 # Lucky for pfSense
 
-这是适用于 pfSense 的 [Lucky](https://github.com/gdy666/lucky) 软件包。
+![Architecture](https://img.shields.io/badge/Architecture-x86__64-blue)
+![Lucky](https://img.shields.io/badge/Lucky-v2.27.2-green)
 
-安装后会在 pfSense WebGUI 的 **Services > Lucky** 菜单中添加管理页面，并提供 rc.d 服务管理、日志文件和 FreeBSD amd64 版 Lucky 主程序。
+Lucky 是一款面向家庭网络和路由器场景的一体化管理工具，提供动态域名解析（DDNS）、ACME 证书管理、端口转发、Web 服务、计划任务等丰富功能。
+本项目将 **Lucky** 集成到 pfSense WebUI 中，为用户提供便捷的图形化管理界面。
+
+安装后会在 pfSense WebGUI 的 **Services > Lucky** 菜单中添加管理页面。
+
+![Lucky WebUI](image/lucky.png)
 
 ## 功能
 
@@ -67,3 +73,7 @@ pkg delete -y pfSense-pkg-lucky
 ```
 
 卸载时会停止 Lucky 服务，并清理软件包注册信息。
+
+## 免责
+
+这是一个非官方社区项目，与 pfSense 团队没有任何关联，自行承担使用过程中可能产生的风险。

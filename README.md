@@ -48,7 +48,7 @@ pkg add -f dist/pfSense-pkg-lucky.pkg
 安装完成后刷新 pfSense WebGUI，打开：
 
 ```text
-Services > Lucky
+服务 > Lucky
 ```
 
 Lucky 默认访问地址为：

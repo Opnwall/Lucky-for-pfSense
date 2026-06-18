@@ -6,18 +6,9 @@
 Lucky 是一款面向家庭网络和路由器场景的一体化管理工具，提供动态域名解析（DDNS）、ACME 证书管理、端口转发、Web 服务、计划任务等丰富功能。
 本项目将 **Lucky** 集成到 pfSense WebUI 中，为用户提供便捷的图形化管理界面。
 
-安装后会在 pfSense WebGUI 的 **Services > Lucky** 菜单中添加管理页面。
+安装转到 pfSense WebGUI 的 **服务 > Lucky** 菜单进行控制。
 
 ![Lucky WebUI](image/lucky.png)
-
-## 功能
-
-- pfSense WebGUI 菜单入口：**Services > Lucky**
-- Lucky 服务启动、停止、重启控制
-- 默认 Web 管理端口：`16601`
-- 默认配置目录：`/usr/local/etc/lucky`
-- 默认日志文件：`/var/log/lucky.log`
-- 内置官方 FreeBSD amd64 Lucky 二进制文件
 
 ## 编译
 
